@@ -1,0 +1,127 @@
+html {
+    margin:0 auto;
+    background-color: rgb(250, 200, 152);
+}
+h1,h2{
+    text-align: center;
+    color: salmon;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button {
+    display: grid;
+    margin: 5px auto;
+    width:60%;
+    padding: 20px;
+    background-color: pink;
+    font-size: large;
+    
+    padding: 5px;
+    border: lightcoral inset 2px;
+    border-radius: 8px;
+   
+}
+.accord-panel {
+    display: none;
+    background-color: antiquewhite;
+    border: double palevioletred 2px;
+    width: 59%;
+    margin: auto;
+    padding: 5px;
+}
+.accord {
+    list-style: none;
+}
+
+img.main {
+    width: 35%;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border:groove 4px;
+}
+
+.tab-list {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    margin: auto;
+    
+    
+
+}
+
+.tab-list li {
+    display: inline-block;
+    background-color: tan;
+    
+    
+}
+.tab-list li a {
+    display: block;
+    color: orangered;
+    padding:3px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.tab-list li.active {
+    background-color: burlywood;
+    
+}
+.tab-panel {
+    display: none;
+    background-color: burlywood;
+    min-height: 100px;
+    overflow: auto;
+    padding: 10px;
+    
+    width: 60%;
+    margin: auto;
+}
+.images {
+    
+    
+    float: left;
+    width: 100px;
+    margin: 5px;
+    
+}
+img {
+    width: 100%;
+    height: 100px;
+}
+span { text-align: center;
+    vertical-align: text-bottom;
+    
+}
+
+h1{
+    background-color: brown;
+}
+h2 {
+    background-color: khaki;
+    width: 500px;
+    margin:  20px auto;
+    border-radius: 20px;
+    
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.about {
+    width: 56%;
+    background-color: antiquewhite ;
+    padding: 20px;
+    margin: auto;
+    border: ridge orangered 2px;
+
+}
+
+pre {
+    width: 60%;
+    margin: 20px auto;
+}
