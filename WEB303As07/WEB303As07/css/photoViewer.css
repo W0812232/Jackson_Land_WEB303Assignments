@@ -1,0 +1,37 @@
+
+#photo-viewer{
+  
+    position:relative;
+    
+    overflow:hidden;
+
+    
+    
+}
+#photo-viewer.is-loading:after{
+  content: url('img/loading.jpg');
+  position:absolute;
+  top:0;
+  right:0;
+}
+#photo-viewer img{
+  
+  width:450px;
+  height: 800px;
+  
+  border: 3px solid brown;
+  border-radius: 10px;
+}
+
+.photo-thumbnails img{
+margin: 10px;
+  height: 80px;
+  width:45px;
+  
+   border: 3px solid brown;
+   border-radius: 20px;
+}
+
+a.active{
+  opacity: 0.3;
+}
