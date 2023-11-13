@@ -1,0 +1,59 @@
+
+[
+    {
+        "name":"Scott",
+        "last":"Pilgrim",
+        "age":"23",
+        "occupation":"Dish Washer",
+        "nationality":"Canadian"
+    },
+    {
+        "name":"Stephen",
+        "last":"Stills",
+        "age":"23",
+        "occupation":"Cook",
+        "nationality":"Canadian"
+    },
+    {
+        "name":"Kim",
+        "last":"Pine",
+        "age":"23",
+        "occupation":"Video Store worker",
+        "nationality":"Canadian"
+    },
+    {
+        "name":"Ramona",
+        "last":"Flowers",
+        "age":"24",
+        "occupation":"Amazon Delivery",
+        "nationality":"American"
+    },
+    {
+        "name":"Knives",
+        "last":"Chau",
+        "age":"17",
+        "occupation":"Barista",
+        "nationality":"Chinese-Canadian"
+    },
+    {
+        "name":"Julie",
+        "last":"Powers",
+        "age":"22",
+        "occupation":"Barista",
+        "nationality":"Canadian"
+    },
+    {
+        "name":"Envy",
+        "last":"Adams",
+        "age":"23",
+        "occupation":"Musician",
+        "nationality":"Canadian"
+    },
+    {
+        "name":"Wallace",
+        "last":"Wells",
+        "age":"25",
+        "occupation":"Cinema Candy Bar",
+        "nationality":"Canadian"
+    }
+]
