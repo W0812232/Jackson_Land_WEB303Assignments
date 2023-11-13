@@ -66,7 +66,7 @@ $.ajax({
                 }
                 name.element.style.background = index === -1 ? 'bisque' : 'darkgreen';
                 name.element.style.color = index === -1 ? 'black' : 'white';
-                if($(search).val() == " "){
+                if($(search).val() == ""){
                     name.element.style.color = 'black';
                     name.element.style.background = 'bisque'
                 }
