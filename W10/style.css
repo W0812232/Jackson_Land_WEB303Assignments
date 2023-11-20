@@ -1,0 +1,65 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+    margin-left: 10px;
+    border: 2px inset brown;
+    border-radius: 4px;
+    width: 20%;
+    padding: 5px;
+
+}
+
+table {
+    margin: 20px auto;
+    border: 2px solid brown;
+    border-radius: 4px;
+}
+
+td {
+    width: 10%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+thead td {
+    font-weight: bold;
+}
+
+button {
+    width: 20%;
+    margin: 5%;
+    padding: 8px;
+    border: 2px solid brown;
+    background-color: burlywood;
+    font-weight: bold;
+}
+
+thead th a {
+    font-weight: bold;
+    font-size: 20px;
+    color: tomato;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table, tr, th, td {
+    
+    border: 2px solid brown;
+}
+
+a.ascending::after {
+    content: "\25B2";
+}
+
+a.descending::after{
+    content: "\25BC";
+}
+a.no-sort::after{
+    content: "";
+}
